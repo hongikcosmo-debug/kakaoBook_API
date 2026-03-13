@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HongEthos's Bookstore</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container header-inner">
+            <h1 class="logo">카카오 도서</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="도서명, 저자명을 검색하세요">
+                <button>🔍</button>
+            </div>
+            <nav class="user-menu">
+                <a href="#">로그인</a>
+                <a href="#">회원가입</a>
+                <a href="#">장바구니</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!--슬라이더-->
+        <section id="main-banner" class="slider-section">
+            <div class="slider-wrapper" id="slider-wrapper">
+            </div>
+
+            <button class="slide-btn prev" id="prev-btn" aria-label="이전 슬라이드">❮</button>
+            <button class="slide-btn next" id="next-btn" aria-label="다음 슬라이드">❯</button>
+
+            <div class="slider-pagination">
+                <span id="current-idx">1</span> / <span id="total-idx">0</span>
+                <span class="view-all">| 전체보기</span>
+            </div>
+        </section>
+
+        <!--main banner
+        <section id="main-banner" class="banner-section">
+            <div class="container" id="banner-container"></div>
+        </section>
+        -->
+        <!--카카오 api로 읽은 정보 뿌리기-->
+        <section class="kakao-search-section">
+            <div class="kakao-container">
+                <div class="kakao-header">
+                    <h2>카카오 도서 검색 결과 <span class="kakao-query">"파이썬"</span></h2>
+                </div>
+
+                <div class="kakao-book-grid" id="kakao-book-grid">
+                </div>
+            </div>
+        </section>
+
+        <!--화제의 신작 start-->
+        <section class="new-books-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>화제의 신간</h2>
+                    <span class="more-icon">❯</span>
+                </div>
+
+                <nav class="category-tabs" id="category-tabs"></nav>
+
+                <div class="slider-outer">
+                    <button class="nav-btn prev" id="slide-prev">❮</button>
+                    <button class="nav-btn next" id="slide-next">❯</button>
+
+                    <div class="book-list-wrapper">
+                        <div class="book-list" id="book-list"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--화제의 신작 end -->
+
+
+
+        <section class="container category-grid" id="category-container"></section>
+
+        <section class="container section-margin">
+            <h2>오늘의 선택</h2>
+            <div class="book-grid" id="todays-selection"></div>
+        </section>
+
+        <section class="container section-margin">
+            <h2>편집자의 선택</h2>
+            <div class="book-grid" id="editors-pick"></div>
+        </section>
+    </main>
+
+
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Jay's Bookstore. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

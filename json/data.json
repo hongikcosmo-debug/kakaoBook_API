@@ -1,0 +1,240 @@
+{
+    "slider": [
+        {
+            "id": 1,
+            "title": "26년 1학기\n대학전공 필수 교재전",
+            "subtitle": "학과별 핵심 도서 총정리",
+            "image": "img/banner1.jpg",
+            "bgColor": "#FDF5E6",
+            "link": "#"
+        },
+        {
+            "id": 2,
+            "title": "새로운 시작,\n베스트셀러 기획전",
+            "subtitle": "지금 가장 핫한 책들을 만나보세요",
+            "image": "img/banner2.jpg",
+            "bgColor": "#E0F2F1",
+            "link": "#"
+        },
+        {
+            "id": 3,
+            "title": "봄맞이 마음 양식,\n에세이 특선",
+            "subtitle": "따뜻한 문장으로 채우는 오후",
+            "image": "img/banner3.jpg",
+            "bgColor": "#FCE4EC",
+            "link": "#"
+        }
+    ],
+    "categories": [
+        "종합",
+        "소설/에세이/시",
+        "자녀교육/건강/여행/요리",
+        "유아/어린이/초등학습",
+        "인문/역사",
+        "외국어",
+        "예술",
+        "컴퓨터/IT",
+        "기술/공학",
+        "경제/자기계발"
+    ],
+    "books": [
+        {
+            "id": 1,
+            "title": "Do it! 점프 투 파이썬",
+            "author": "박응용",
+            "image": "img/hot_new_book/book1.jpg",
+            "category": "종합"
+        },
+        {
+            "id": 2,
+            "title": "혼자 공부하는 파이썬.",
+            "author": "이송현",
+            "image": "img/hot_new_book/book2.jpg",
+            "category": "종합"
+        },
+        {
+            "id": 3,
+            "title": "코딩 자율학습 나도코딩의 파이썬 입문",
+            "author": "샘터 편집부",
+            "image": "img/hot_new_book/book3.jpg",
+            "category": "소설/에세이/시"
+        },
+        {
+            "id": 4,
+            "title": "챗GPT로 만드는 주식 & 암호화폐 자동매매 시스템",
+            "author": "앤디 위어",
+            "image": "img/hot_new_book/book4.jpg",
+            "category": "소설/에세이/시"
+        },
+        {
+            "id": 5,
+            "title": " 파이썬(열혈강의)(개정판 VER.2)",
+            "author": "서덕준",
+            "image": "img/hot_new_book/book5.jpg",
+            "category": "경제/자기계발"
+        }
+    ],
+    "kakaoBooks": [
+        {
+            "authors": [
+                "박응용"
+            ],
+            "contents": "개정 2판으로 새롭게 태어났다! 챗GPT를 시작으로 펼쳐진 생성 AI 시대에 맞춰 설명과 예제를 다듬고, 최신 경향과 심화 내용을 보충했다. 또한 이번 개정 2판도 50만 코딩 유튜버인 조코딩과 협업을 통해 유튜브 동영상을 제공해 파이썬을 더 쉽게 공부할 수 있다.  8년 연속 베스트셀러! 위키독스 누적 방문 300만! 독자의 입에서 입으로 전해진 추천과 수많은 대학 및 학원의 교재 채택을 통해 검증은 이미 끝났다. 코딩을 처음 배우는 중고등학생부터 코딩",
+            "datetime": "2023-06-15T00:00:00.000+09:00",
+            "isbn": "1163034738 9791163034735",
+            "price": 22000,
+            "publisher": "이지스퍼블리싱",
+            "sale_price": 19800,
+            "status": "정상판매",
+            "thumbnail": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6361131%3Ftimestamp%3D20250709143830",
+            "title": "Do it! 점프 투 파이썬",
+            "translators": [],
+            "url": "https://search.daum.net/search?w=bookpage&bookId=6361131&q=Do+it%21+%EC%A0%90%ED%94%84+%ED%88%AC+%ED%8C%8C%EC%9D%B4%EC%8D%AC"
+        },
+        {
+            "authors": [
+                "윤인성"
+            ],
+            "contents": "『혼자 공부하는 파이썬』이 더욱 흥미있고 알찬 내용으로 개정되었습니다. 프로그래밍이 정말 처음인 입문자도 따라갈 수 있는 친절한 설명과 단계별 학습은 그대로! 혼자 공부하더라도 체계적으로 계획을 세워 학습할 수 있도록 ‘혼공 계획표’를 새롭게 추가했습니다. 또한 입문자가 자주 물어보는 질문과 오류 해결 방법을 적재적소에 배치하여 예상치 못한 문제에 부딪혀도 좌절하지 않고 끝까지 완독할 수 있도록 도와줍니다. 단순한 문법 암기와 코딩 따라하기에 지쳤다면, 새로운",
+            "datetime": "2022-06-01T00:00:00.000+09:00",
+            "isbn": "1162245654 9791162245651",
+            "price": 22000,
+            "publisher": "한빛미디어",
+            "sale_price": 19800,
+            "status": "정상판매",
+            "thumbnail": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6080832%3Ftimestamp%3D20251102123026",
+            "title": "혼자 공부하는 파이썬",
+            "translators": [],
+            "url": "https://search.daum.net/search?w=bookpage&bookId=6080832&q=%ED%98%BC%EC%9E%90+%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94+%ED%8C%8C%EC%9D%B4%EC%8D%AC"
+        },
+        {
+            "authors": [
+                "나도코딩"
+            ],
+            "contents": "유튜브와 인프런 최고의 인기 강의를 한 권에 담았습니다. 일상 속 재미있는 예제로 파이썬 기본 개념을 배우고 1분 퀴즈, 실습 문제, 셀프체크로 이어지는 단계별 학습으로 파이썬을 완공할 수 있습니다. 이제 코딩은 선택이 아닌 필수! 코딩은 전공자만 배울 수 있다는 생각으로 지레 포기하지 마세요. 파이썬은 초보자가 가장 쉽게 배울 수 있는 프로그래밍 언어입니다. 관심만 있다면 누구나 코딩을 배울 수 있습니다. 나도코딩이 쉽고 재미있게 알려드립니다. 코딩",
+            "datetime": "2023-02-20T00:00:00.000+09:00",
+            "isbn": "1140703307 9791140703302",
+            "price": 24000,
+            "publisher": "길벗",
+            "sale_price": 21600,
+            "status": "정상판매",
+            "thumbnail": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6282674%3Ftimestamp%3D20260113152242",
+            "title": "코딩 자율학습 나도코딩의 파이썬 입문",
+            "translators": [],
+            "url": "https://search.daum.net/search?w=bookpage&bookId=6282674&q=%EC%BD%94%EB%94%A9+%EC%9E%90%EC%9C%A8%ED%95%99%EC%8A%B5+%EB%82%98%EB%8F%84%EC%BD%94%EB%94%A9%EC%9D%98+%ED%8C%8C%EC%9D%B4%EC%8D%AC+%EC%9E%85%EB%AC%B8"
+        },
+        {
+            "authors": [
+                "설근민"
+            ],
+            "contents": "프로그램이 뚝딱 만들어진다. 중요한 것은 프로그래밍 언어를 아는 것이 아니라, 문제 해결 방식을 떠올리는 것이다. 어떤 데이터를 어떻게 수집하고, 어떤 모듈로 예측 모델을 만들고, 어떤 조건으로 종목 추천을 받을지 생각했다면, 챗GPT를 이용해 자동매매 시스템으로 조합하는 것은 더 이상 어렵지 않다. 증권사 트레이더에게 챗GPT를 활용하는 방식을 배우고, 초보자도 이해하기 쉬운 파이썬으로 직접 프로그램을 만들면서 자연스럽게 코딩 지식과 금융 지식을 익혀보자",
+            "datetime": "2023-11-17T00:00:00.000+09:00",
+            "isbn": "1192987039 9791192987033",
+            "price": 20000,
+            "publisher": "제이펍",
+            "sale_price": 18000,
+            "status": "정상판매",
+            "thumbnail": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6480329%3Ftimestamp%3D20260312152433",
+            "title": "챗GPT로 만드는 주식 & 암호화폐 자동매매 시스템",
+            "translators": [],
+            "url": "https://search.daum.net/search?w=bookpage&bookId=6480329&q=%EC%B1%97GPT%EB%A1%9C+%EB%A7%8C%EB%93%9C%EB%8A%94+%EC%A3%BC%EC%8B%9D+%26+%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90+%EC%9E%90%EB%8F%99%EB%A7%A4%EB%A7%A4+%EC%8B%9C%EC%8A%A4%ED%85%9C"
+        },
+        {
+            "authors": [
+                "박응용"
+            ],
+            "contents": "문과생도 중고등학생도 직장인도 프로그래밍에 눈뜨게 만든 바로 그 책이 전면 개정판으로 새로 태어났다! 2016년 《Do it! 점프 투 파이썬》으로 출간되었던 이 책은 약 4년 동안의 피드백을 반영하여 초보자가 더 빠르게 입문하고, 더 깊이 있게 공부할 수 있도록 개정되었다. 특히 ‘나 혼자 코딩’과 ‘코딩 면허 시험 20제’ 등 독자의 학습 흐름에 맞게 문제를 보강한 점이 눈에 띈다. 실습량도 두 배로 늘었다.  4년 동안 압도적 1위! 위키독스",
+            "datetime": "2019-06-20T00:00:00.000+09:00",
+            "isbn": "1163030910 9791163030911",
+            "price": 18800,
+            "publisher": "이지스퍼블리싱",
+            "sale_price": 16920,
+            "status": "정상판매",
+            "thumbnail": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F4977247%3Ftimestamp%3D20260123124205",
+            "title": "Do it! 점프 투 파이썬",
+            "translators": [],
+            "url": "https://search.daum.net/search?w=bookpage&bookId=4977247&q=Do+it%21+%EC%A0%90%ED%94%84+%ED%88%AC+%ED%8C%8C%EC%9D%B4%EC%8D%AC"
+        },
+        {
+            "authors": [
+                "박해선"
+            ],
+            "contents": "눈에 잘 들어오는 그림으로 풀어냈습니다. ‘혼자 공부해 본’ 여러 입문자의 초심과 눈높이가 책 곳곳에 반영된 것이 이 책의 가장 큰 장점입니다.  누구를 위한 책인가요?  ● 데이터 분석을 어떻게 시작할지 막막한 비전공자 ● 파이썬을 배운 다음 의미 있는 실습을 해 보고 싶은 파이썬 입문자 ● 프로그래밍은 알지만, 분석(통계)에 대한 이해가 필요한 개발자 ● 데이터에서 유의미한 결과를 도출해 이를 기획이나 마케팅에 적용해 보고 싶은 직장인 ● 데이터 분석가",
+            "datetime": "2023-01-02T00:00:00.000+09:00",
+            "isbn": "1169210287 9791169210287",
+            "price": 26000,
+            "publisher": "한빛미디어",
+            "sale_price": 23400,
+            "status": "정상판매",
+            "thumbnail": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F6244095%3Ftimestamp%3D20251126160841",
+            "title": "혼자 공부하는 데이터 분석 with 파이썬",
+            "translators": [],
+            "url": "https://search.daum.net/search?w=bookpage&bookId=6244095&q=%ED%98%BC%EC%9E%90+%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94+%EB%8D%B0%EC%9D%B4%ED%84%B0+%EB%B6%84%EC%84%9D+with+%ED%8C%8C%EC%9D%B4%EC%8D%AC"
+        },
+        {
+            "authors": [
+                "박응용"
+            ],
+            "contents": "《Do it! 점프 투 파이썬》은 지난 10년간 온라인 독자들의 질문 댓글에 답변하며 쌓아온 저자만의 노하우를 초보자들이 이해하기 쉽게 풀어냈다. 책은 파이썬의 문법들을 실생활에서 쉽게 접할 수 있는 일들을 사례로 들어 설명하는 저자의 탁월함이 돋보인다. 더불어 최신 파이썬 3버전을 기준으로 내용을 설명하고, 반드시 기억해야 하는 파이썬 2.7버전 내용까지 책 곳곳에서 수록하였다. 또한, 책에서 제공하는 ‘초보자 30일 코스’ 계획표를 이용해 하루 한",
+            "datetime": "2016-03-03T00:00:00.000+09:00",
+            "isbn": "8997390910 9788997390915",
+            "price": 18800,
+            "publisher": "이지스퍼블리싱",
+            "sale_price": 16920,
+            "status": "정상판매",
+            "thumbnail": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F1481287%3Ftimestamp%3D20220531214654",
+            "title": "Do it! 점프 투 파이썬",
+            "translators": [],
+            "url": "https://search.daum.net/search?w=bookpage&bookId=1481287&q=Do+it%21+%EC%A0%90%ED%94%84+%ED%88%AC+%ED%8C%8C%EC%9D%B4%EC%8D%AC"
+        },
+        {
+            "authors": [
+                "이강성"
+            ],
+            "contents": "",
+            "datetime": "2005-08-29T00:00:00.000+09:00",
+            "isbn": "8989345774 9788989345770",
+            "price": 35000,
+            "publisher": "프리렉",
+            "sale_price": -1,
+            "status": "",
+            "thumbnail": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F1297411%3Ftimestamp%3D20221025165925",
+            "title": "파이썬(열혈강의)(개정판 VER.2)",
+            "translators": [],
+            "url": "https://search.daum.net/search?w=bookpage&bookId=1297411&q=%ED%8C%8C%EC%9D%B4%EC%8D%AC%28%EC%97%B4%ED%98%88%EA%B0%95%EC%9D%98%29%28%EA%B0%9C%EC%A0%95%ED%8C%90+VER.2%29"
+        },
+        {
+            "authors": [
+                "윤인성"
+            ],
+            "contents": "이 책은 독학으로 프로그래밍 언어를 처음 배우려는 입문자가, 혹은 파이썬을 배우려는 입문자가 ‘꼭 필요한 내용을 제대로’ 학습할 수 있도록 구성했다. ‘무엇을’, ‘어떻게’ 학습해야 할지조차 모르는 입문자의 막연한 마음을 살펴, 과외 선생님이 알려주듯 친절하게, 그러나 핵심적인 내용만 콕콕 집어준다. 책의 첫 페이지를 펼쳐서 마지막 페이지를 덮을 때까지, 혼자서도 충분히 파이썬을 배울 수 있다는 자신감과 확신이 계속될 것이다!    27명의 베타리더",
+            "datetime": "2019-06-10T00:00:00.000+09:00",
+            "isbn": "1162241888 9791162241882",
+            "price": 18000,
+            "publisher": "한빛미디어",
+            "sale_price": 16200,
+            "status": "정상판매",
+            "thumbnail": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F4966863%3Ftimestamp%3D20251101123437",
+            "title": "혼자 공부하는 파이썬",
+            "translators": [],
+            "url": "https://search.daum.net/search?w=bookpage&bookId=4966863&q=%ED%98%BC%EC%9E%90+%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94+%ED%8C%8C%EC%9D%B4%EC%8D%AC"
+        },
+        {
+            "authors": [
+                "한선관",
+                "김태령"
+            ],
+            "contents": "이 책은 지금까지 경험하지 못한 코딩 교육의 진수를 보여준다. “코딩 교육이 가야 할 방향은 컴퓨팅 사고력을 높이는 것이다.”라고 이 책의 저자들이 말하듯, “디지털 시대에 적합한 창의력과 문제해결력을 기르기 위한 코딩의 기초부터 응용까지 컴퓨터 코드를 작성하는 것은 물론이고, 알고리즘 학습을 통한 컴퓨팅 사고력을 완전 정복한다.",
+            "datetime": "2019-02-28T00:00:00.000+09:00",
+            "isbn": "8970509720 9788970509723",
+            "price": 29000,
+            "publisher": "생능출판",
+            "sale_price": 26100,
+            "status": "정상판매",
+            "thumbnail": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F4888715%3Ftimestamp%3D20240330130853",
+            "title": "파이썬",
+            "translators": [],
+            "url": "https://search.daum.net/search?w=bookpage&bookId=4888715&q=%ED%8C%8C%EC%9D%B4%EC%8D%AC"
+        }
+    ]
+}
