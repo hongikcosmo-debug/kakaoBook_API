@@ -18,7 +18,10 @@ function searchKakaoBooks() {
         alert("검색어를 입력해주세요!");
         return;
     }
-
+    
+    // 화면의 검색어 텍스트 업데이트 ("파이썬" -> 입력한 검색어)
+    if (queryDisplay) queryDisplay.innerText = `"${query}"`;
+    
     // 화면의 검색어 텍스트 업데이트 ("파이썬" -> 입력한 검색어)
     if (queryDisplay) queryDisplay.innerText = `"${query}"`;
 
