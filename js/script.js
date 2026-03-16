@@ -1,3 +1,84 @@
+/**
+ * [카카오 실시간 검색] 관련 설정 및 함수
+ */
+const KAKAO_API_KEY = "442ebf9f7285d9ec8bec491e3d33d712"; // 제이님이 발급받은 키
+const KAKAO_API_URL = "https://dapi.kakao.com/v3/search/book";
+
+// 1. 검색 버튼 및 입력창 요소 가져오기
+const searchInput = document.getElementById('kakao-search-input');
+const searchBtn = document.getElementById('kakao-search-btn');
+const kakaoGrid = document.getElementById('kakao-book-grid');
+const queryDisplay = document.querySelector('.kakao-query');
+
+// 2. 검색 실행 함수
+function searchKakaoBooks() {
+    const query = searchInput.value.trim(); // 앞뒤 공백 제거
+
+    if (!query) {
+        alert("검색어를 입력해주세요!");
+        return;
+    }
+
+    // 화면의 검색어 텍스트 업데이트 ("파이썬" -> 입력한 검색어)
+    if (queryDisplay) queryDisplay.innerText = `"${query}"`;
+
+    // 카카오 API 호출
+    fetch(`${KAKAO_API_URL}?query=${encodeURIComponent(query)}&size=10`, {
+        method: "GET",
+        headers: {
+            "Authorization": `KakaoAK ${KAKAO_API_KEY}`
+        }
+    })
+    .then(res => res.json())
+    .then(data => {
+        const books = data.documents;
+        renderKakaoList(books); // 검색 결과를 화면에 뿌려주는 함수 호출
+    })
+    .catch(err => {
+        console.error("API 호출 중 오류 발생:", err);
+        kakaoGrid.innerHTML = "<p>검색 결과를 가져오는 중 오류가 발생했습니다.</p>";
+    });
+}
+
+// 3. 검색 결과를 HTML로 변환하여 출력하는 함수
+function renderKakaoList(books) {
+    if (!books || books.length === 0) {
+        kakaoGrid.innerHTML = "<p>검색 결과가 없습니다.</p>";
+        return;
+    }
+
+    kakaoGrid.innerHTML = books.map(book => {
+        // 썸네일 보안 및 대체 이미지 처리
+        let thumbImg = book.thumbnail;
+        if (thumbImg && thumbImg.startsWith('http:')) {
+            thumbImg = thumbImg.replace('http:', 'https:');
+        }
+        if (!thumbImg) thumbImg = 'https://via.placeholder.com/120x174?text=No+Image';
+
+        return `
+            <article class="kakao-book-card">
+                <div class="kakao-thumb-box">
+                    <img src="${thumbImg}" alt="${book.title}" onerror="this.src='https://via.placeholder.com/120x174?text=Error'">
+                </div>
+                <div class="kakao-info">
+                    <h3 class="k-title" title="${book.title}">${book.title}</h3>
+                    <p class="k-author">${book.authors.join(', ')}</p>
+                    <p class="k-publisher">${book.publisher}</p>
+                    <p class="k-price">${book.price.toLocaleString()}원</p>
+                </div>
+            </article>
+        `;
+    }).join('');
+}
+
+// 4. 이벤트 바인딩 (클릭 및 엔터키)
+searchBtn.addEventListener('click', searchKakaoBooks);
+
+searchInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+        searchKakaoBooks();
+    }
+});
 document.addEventListener('DOMContentLoaded', () => {
     // JSON 데이터 가져오기
     fetch('./json/data.json')
